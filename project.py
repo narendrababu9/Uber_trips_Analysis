@@ -9,7 +9,7 @@ import pandas as pd
 data=pd.read_csv("uberdata.csv")
 
 
-# In[37]:
+# In[37];
 
 
 data
@@ -275,7 +275,7 @@ plt.ylabel('Frequency')
 plt.show()
 
 
-# In[ ]:
+# In[ ]
 
 
 
