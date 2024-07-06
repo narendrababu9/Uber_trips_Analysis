@@ -7,7 +7,7 @@ import altair as alt
 # Set page title
 st.set_page_config(page_title="Uber Trips Analysis")
 
-# Define function to load data
+# Define function to load 
 @st.cache(persist=True)
 def load_data():
     data = pd.read_csv("uberdata.csv")
